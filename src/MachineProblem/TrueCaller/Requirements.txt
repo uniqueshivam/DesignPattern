@@ -1,0 +1,12 @@
+User Features:
+Register/Login.
+Search for a phone number.
+View caller details (name, spam count, etc.).
+Mark a number as spam.
+Sync contacts and identify unknown numbers.
+
+Non-functional requirement;
+Handle millions of users and billions of phone numbers.
+Low latency for search operations.
+High availability and fault tolerance.
+Scalable storage and processing.
