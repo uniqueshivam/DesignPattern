@@ -280,9 +280,15 @@ public class main {
 
         //41
 
-        int[] arr = new int[]{1,2,3};
-        SubSets subSets = new SubSets();
-        System.out.println(subSets.subsets(arr));
+//        int[] arr = new int[]{1,2,3};
+//        SubSets subSets = new SubSets();
+//        System.out.println(subSets.subsets(arr));
+
+        //42
+
+        int[] arr = new int[]{4,4,4,1,4};
+        SubSet2 subSet2 = new SubSet2();
+        System.out.println(subSet2.subsetsWithDup(arr));
 
     }
 }
