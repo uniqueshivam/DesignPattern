@@ -222,9 +222,9 @@ public class main {
 //        System.out.println(equilibriumIndexOfArray.findEquilibriumIndex(arr));
 
         //31
-//        int[] arr = new int[]{3,3,3,3,3};
+//        int[] arr = new int[]{4,3,1,4,2};
 //        FindTheDuplicateNumber findTheDuplicateNumber = new FindTheDuplicateNumber();
-//        System.out.println(findTheDuplicateNumber.findDuplicate(arr));
+//        System.out.println(findTheDuplicateNumber.findDuplicateOptimal(arr));
 
         //32
 //        int[] arr = new int[]{8,5,2,1,2};
@@ -285,10 +285,15 @@ public class main {
 //        System.out.println(subSets.subsets(arr));
 
         //42
+//
+//        int[] arr = new int[]{4,4,4,1,4};
+//        SubSet2 subSet2 = new SubSet2();
+//        System.out.println(subSet2.subsetsWithDup(arr));
 
-        int[] arr = new int[]{4,4,4,1,4};
-        SubSet2 subSet2 = new SubSet2();
-        System.out.println(subSet2.subsetsWithDup(arr));
+        //43
+        String s = "aab";
+        PalindromePartitioning palindromePartitioning = new PalindromePartitioning();
+        System.out.println(palindromePartitioning.partition(s));
 
     }
 }
